@@ -2,7 +2,8 @@
   "name": "@willbell71/logger",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "jest": {
     "preset": "ts-jest"
   },
