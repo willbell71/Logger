@@ -1,8 +1,8 @@
-import './elogger-level';
-import './ilog-line';
-import './ilogger';
+export { ELoggerLevel } from './elogger-level';
+export { ILogLine } from './ilog-line';
+export { ILogger } from './ilogger';
 
-import './logger';
-import './log-line-console-log';
-import './log-line-console-warn';
-import './log-line-console-error';
+export { Logger } from './logger';
+export { LogLineConsoleLog } from './log-line-console-log';
+export { LogLineConsoleWarn } from './log-line-console-warn';
+export { LogLineConsoleError } from './log-line-console-error';
